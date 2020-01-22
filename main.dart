@@ -89,7 +89,8 @@ void main() async {
 
   Map<String, dynamic> response = Map();
 
-  response = {'full_name': 'Paulo Victor Vieira da Silva', 'email':'p.vieira.1559@usp.br', 'code_link':'https://github.com/paulosilva159/psel-racoon',
+  response = {'full_name': 'Paulo Victor Vieira da Silva', 'email':'p.vieira.1559@usp.br',
+   'code_link':'https://github.com/paulosilva159/psel-racoon',
     'response_a': [], 'response_b': [], 'response_c': 0, 'response_d': []};
 
   String firstUrl = 'https://us-central1-psel-clt-ti-junho-2019.cloudfunctions.net/psel_2019_get';
